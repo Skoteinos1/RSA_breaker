@@ -7,3 +7,8 @@ def save_pickle(file, data1):
     pkl_file = open(pth + file, 'wb')
     pickle.dump(data1, pkl_file)
     pkl_file.close()
+
+def load_pickle(fl_nm):
+    if '.pkl' not in fl_nm:
+        fl_nm += '.pkl'
+    try:

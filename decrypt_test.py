@@ -12,3 +12,7 @@ def load_pickle(fl_nm):
     if '.pkl' not in fl_nm:
         fl_nm += '.pkl'
     try:
+        pkl_file = open(pth + fl_nm, 'rb')
+        data1 = pickle.load(pkl_file)
+        pkl_file.close()
+    except:

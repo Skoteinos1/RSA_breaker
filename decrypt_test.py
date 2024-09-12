@@ -16,3 +16,7 @@ def load_pickle(fl_nm):
         data1 = pickle.load(pkl_file)
         pkl_file.close()
     except:
+        print('Missing pickle table:', fl_nm)
+        # pkl_file = open(file, 'wb')
+        data1 = ''
+    return data1

@@ -20,3 +20,9 @@ def load_pickle(fl_nm):
         # pkl_file = open(file, 'wb')
         data1 = ''
     return data1
+
+def enc_decr(f1, f11, f2, ms):
+    valid_key = False
+    e_ms = [(x**f1)%f2 for x in ms]
+    # print(ms**f1)
+    # print(e_ms)

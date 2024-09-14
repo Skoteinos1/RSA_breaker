@@ -26,3 +26,6 @@ def enc_decr(f1, f11, f2, ms):
     e_ms = [(x**f1)%f2 for x in ms]
     # print(ms**f1)
     # print(e_ms)
+    d_ms = [(x**f11)%f2 for x in e_ms]
+    # print(e_ms**f11)
+    # print(d_ms)   

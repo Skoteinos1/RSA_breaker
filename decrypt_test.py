@@ -32,3 +32,6 @@ def enc_decr(f1, f11, f2, ms):
     if d_ms == ms and e_ms != ms:
         e_ms = [(x**f11)%f2 for x in ms]
         d_ms = [(x**f1)%f2 for x in e_ms]
+        if d_ms == ms and e_ms != ms:
+            valid_key = True
+    return valid_key

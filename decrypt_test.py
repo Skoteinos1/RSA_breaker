@@ -40,3 +40,6 @@ def enc_decr(f1, f11, f2, ms):
 def encr(f1, f11, f2, ms):
     e_ms = [(x**f1)%f2 for x in ms]
     d_ms = [(x**f11)%f2 for x in e_ms]
+    e_ms2 = [(x**f11)%f2 for x in ms]
+    d_ms2 = [(x**f1)%f2 for x in e_ms2]
+    print(e_ms, d_ms, e_ms2, d_ms2)

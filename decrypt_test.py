@@ -55,3 +55,7 @@ def enc_decr_other_key(f1, f11, f2, ms, g1, g11, g2):
     if [(x**g1)%g2 for x in e_ms] == ms:
         return True
     print(e_ms, d_ms)
+    if [(x**g11)%g2 for x in e_ms] == ms:
+        return True
+    
+    e2_ms = [(x**f11)%f2 for x in ms]

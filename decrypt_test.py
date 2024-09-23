@@ -63,3 +63,9 @@ def enc_decr_other_key(f1, f11, f2, ms, g1, g11, g2):
         return True
     if [(x**g11)%g2 for x in e2_ms] == ms:
         return True
+
+    return False
+       
+    
+keys = []
+x = 100

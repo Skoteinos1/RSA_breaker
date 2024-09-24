@@ -69,3 +69,7 @@ def enc_decr_other_key(f1, f11, f2, ms, g1, g11, g2):
     
 keys = []
 x = 100
+option = 1
+if option == 1:
+    # create key pairs
+    for i0 in range(2, x):

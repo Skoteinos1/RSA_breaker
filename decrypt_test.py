@@ -73,3 +73,7 @@ option = 1
 if option == 1:
     # create key pairs
     for i0 in range(2, x):
+        for i1 in range(i0+1, x):
+            for i2 in range(2, i0*i1):
+                if enc_decr(i0, i1, i2, [1,2,3,4,5]):
+                    print(i0, i1, i2)

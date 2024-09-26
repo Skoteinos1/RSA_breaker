@@ -77,3 +77,7 @@ if option == 1:
             for i2 in range(2, i0*i1):
                 if enc_decr(i0, i1, i2, [1,2,3,4,5]):
                     print(i0, i1, i2)
+                    keys.append([i0, i1, i2])
+                    # print(keys)
+                    # exit()
+    save_pickle('keys4', keys)

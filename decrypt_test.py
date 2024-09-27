@@ -81,3 +81,8 @@ if option == 1:
                     # print(keys)
                     # exit()
     save_pickle('keys4', keys)
+
+elif option == 2:
+    # Look for keys which can open it
+    dec_keys = {}
+    keys = load_pickle('keys4')

@@ -86,3 +86,7 @@ elif option == 2:
     # Look for keys which can open it
     dec_keys = {}
     keys = load_pickle('keys4')
+    for i in range(len(keys)):
+        for j in range(1): #  range(i+1, len(keys)):
+            k = keys[i]
+            uk = [77, 83, 19] # keys[j] 

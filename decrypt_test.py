@@ -90,3 +90,7 @@ elif option == 2:
         for j in range(1): #  range(i+1, len(keys)):
             k = keys[i]
             uk = [77, 83, 19] # keys[j] 
+            dec_failed = False
+            if enc_decr_other_key(k[0], k[1], k[2], [1,2,3,4,5], uk[0], uk[1], uk[2]):
+                if str(k) not in dec_keys:
+                    dec_keys[str(k)] = [uk]

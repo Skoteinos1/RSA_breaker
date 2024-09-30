@@ -94,3 +94,9 @@ elif option == 2:
             if enc_decr_other_key(k[0], k[1], k[2], [1,2,3,4,5], uk[0], uk[1], uk[2]):
                 if str(k) not in dec_keys:
                     dec_keys[str(k)] = [uk]
+                else:
+                    dec_keys[str(k)].append(uk)
+        if i % 100 == 0:
+            print(i, len(keys))
+    save_pickle('dec_keysfff', dec_keys)
+    

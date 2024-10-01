@@ -99,4 +99,8 @@ elif option == 2:
         if i % 100 == 0:
             print(i, len(keys))
     save_pickle('dec_keysfff', dec_keys)
-    
+
+elif option == 3:
+    # Count which keys are most succesfull
+    dec_keys = load_pickle('dec_keys4')
+    # print(len(dec_keys))

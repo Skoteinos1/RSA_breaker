@@ -108,3 +108,7 @@ elif option == 3:
     i = 0
     for key in dec_keys:
         i+=1
+        for key2 in dec_keys[key]:
+            if str(key2) not in keys_counter:
+                keys_counter[str(key2)] = 1
+            else:

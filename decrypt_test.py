@@ -104,3 +104,7 @@ elif option == 3:
     # Count which keys are most succesfull
     dec_keys = load_pickle('dec_keys4')
     # print(len(dec_keys))
+    keys_counter = {}
+    i = 0
+    for key in dec_keys:
+        i+=1

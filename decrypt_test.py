@@ -112,3 +112,8 @@ elif option == 3:
             if str(key2) not in keys_counter:
                 keys_counter[str(key2)] = 1
             else:
+                keys_counter[str(key2)] += 1
+        if i % 100 == 0:
+            print(i)
+
+    save_pickle('keys_counter4', keys_counter)

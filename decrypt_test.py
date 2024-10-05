@@ -117,3 +117,8 @@ elif option == 3:
             print(i)
 
     save_pickle('keys_counter4', keys_counter)
+
+elif option == 4:
+    # Print most succesfull keys
+    keys_counter = load_pickle('keys_counter4')
+    key_list = []

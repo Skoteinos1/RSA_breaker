@@ -122,3 +122,7 @@ elif option == 4:
     # Print most succesfull keys
     keys_counter = load_pickle('keys_counter4')
     key_list = []
+    for key2 in keys_counter:
+        key_list.append((keys_counter[key2], key2))
+    key_list.sort()
+    for key in key_list:

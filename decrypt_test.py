@@ -126,3 +126,8 @@ elif option == 4:
         key_list.append((keys_counter[key2], key2))
     key_list.sort()
     for key in key_list:
+        if ', 6]' not in key[1]:
+            print(key)
+
+elif option == 5:
+    # 4064, '[83, 87, 66]'

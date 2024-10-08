@@ -131,3 +131,8 @@ elif option == 4:
 
 elif option == 5:
     # 4064, '[83, 87, 66]'
+    # Get keys which can be opened by this key
+    
+    dec_keys = load_pickle('dec_keys3')
+    i = 0
+    for key in dec_keys:

@@ -136,3 +136,7 @@ elif option == 5:
     dec_keys = load_pickle('dec_keys3')
     i = 0
     for key in dec_keys:
+        if [83, 87, 66] in dec_keys[key]:
+            i+=1
+            if i%8 == 0:
+                print(key)

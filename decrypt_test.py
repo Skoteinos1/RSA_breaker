@@ -140,3 +140,7 @@ elif option == 5:
             i+=1
             if i%8 == 0:
                 print(key)
+            else:
+                print(key, end = '    ')
+
+    # print(keys)

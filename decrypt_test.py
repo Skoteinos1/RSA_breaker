@@ -144,3 +144,8 @@ elif option == 5:
                 print(key, end = '    ')
 
     # print(keys)
+
+elif option == 6:
+    # encr(83, 95, 5187, [1,2,3,4,5])
+    encr(11, 23, 57, [1,2,3,4,5])
+    # encr(83, 87, 66, [1,2,3,4,5])

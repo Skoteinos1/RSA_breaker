@@ -154,4 +154,8 @@ elif option == 6:
 
     # [83, 95, 5187], [83, 95, 5567], [83, 95, 6213], [83, 95, 7030], [83, 95, 7410],[77, 83, 19]
 
-    
+elif option == 7:
+
+    # Look for keys which can open it
+    dec_keys = {}
+    # dec_keys = load_pickle('dec_keysfff')

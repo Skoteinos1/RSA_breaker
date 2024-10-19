@@ -183,3 +183,7 @@ elif option == 7:
 # for key in keys:
 ##      if not enc_decr(key[0], key[2], key[1], 3):
 #        print(key[0], key[2], key[1], False)
+#         exit()
+#         keys.remove(key)
+# print(len(keys))
+# save_pickle('keys10', keys)

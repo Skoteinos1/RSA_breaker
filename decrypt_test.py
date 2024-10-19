@@ -179,3 +179,7 @@ elif option == 7:
     
 
 # print(len(keys))
+# print(keys)
+# for key in keys:
+##      if not enc_decr(key[0], key[2], key[1], 3):
+#        print(key[0], key[2], key[1], False)

@@ -20,4 +20,10 @@ For simple explanation of how RSA works, you could watch these two youtube video
 https://www.youtube.com/watch?v=4zahvcJ9glg<br>
 https://www.youtube.com/watch?v=oOcTVTpUsPQ<br>
 
+How to use this code:
+Change option value in line 72 from 1-7.
+
+option 1:
+It generates key pairs based on youtube video. It is not optimized, and it uses primes smaller than 100
+
 

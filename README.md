@@ -20,10 +20,13 @@ For simple explanation of how RSA works, you could watch these two youtube video
 https://www.youtube.com/watch?v=4zahvcJ9glg<br>
 https://www.youtube.com/watch?v=oOcTVTpUsPQ<br>
 
-How to use this code:
-Change option value in line 72 from 1-7.
+How to use this code:<br>
+Change option value in line 72 from 1-7.<br>
 
-option 1:
-It generates key pairs based on youtube video. It is not optimized, and it uses primes smaller than 100
+option 1:<br>
+Generates key pairs based on youtube video. It is not optimized, and it uses primes smaller than 100<br>
+
+option 2:<br>
+When we have keys, we try to decrypt message with different set of keys<br>
 
 

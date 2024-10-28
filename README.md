@@ -29,4 +29,5 @@ Generates key pairs based on youtube video. It is not optimized, and it uses pri
 option 2:<br>
 When we have keys, we try to decrypt message with different set of keys<br>
 
-
+option 3:<br>
+In this step we caount which key pair can open most mesasges encrypted by other key pairs

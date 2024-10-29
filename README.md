@@ -31,3 +31,6 @@ When we have keys, we try to decrypt message with different set of keys<br>
 
 option 3:<br>
 In this step we caount which key pair can open most mesasges encrypted by other key pairs
+
+option 4:<br>
+Get print out of most succesfull keys

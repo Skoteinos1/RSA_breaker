@@ -34,3 +34,6 @@ In this step we caount which key pair can open most mesasges encrypted by other 
 
 option 4:<br>
 Get print out of most succesfull keys
+
+option 5:<br>
+Get list of key pairs which can be opened by selected key

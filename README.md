@@ -37,3 +37,6 @@ Get print out of most succesfull keys
 
 option 5:<br>
 Get list of key pairs which can be opened by selected key
+
+option 6:<br>
+Easy to check encryption and decryption process. To see if messages are same and if everything works properly.

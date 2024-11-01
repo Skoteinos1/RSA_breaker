@@ -30,13 +30,16 @@ option 2:<br>
 When we have keys, we try to decrypt message with different set of keys<br>
 
 option 3:<br>
-In this step we caount which key pair can open most mesasges encrypted by other key pairs
+In this step we count which key pair can open most mesasges encrypted by other key pairs<br>
 
 option 4:<br>
-Get print out of most succesfull keys
+Get print out of most succesfull keys<br>
 
 option 5:<br>
-Get list of key pairs which can be opened by selected key
+Get list of key pairs which can be opened by selected key<br>
 
 option 6:<br>
-Easy to check encryption and decryption process. To see if messages are same and if everything works properly.
+Easy to check encryption and decryption process. To see if messages are same and if everything works properly.<br>
+
+option 7:<br>
+Well... it is little bit embarassing but I forgot what this does<br>

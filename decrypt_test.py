@@ -69,7 +69,7 @@ def enc_decr_other_key(f1, f11, f2, ms, g1, g11, g2):
     
 keys = []
 x = 100
-option = 1
+option = 7
 if option == 1:
     # create key pairs
     for i0 in range(2, x):
@@ -173,6 +173,7 @@ elif option == 7:
                     dec_keys[str(k)] = [uk]
                 else:
                     dec_keys[str(k)].append(uk)
+        break
     print(dec_keys)
        
 
